@@ -1,0 +1,14 @@
+# Save and temporary files
+*.bak
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*auto*
+
+# Lock files
+*.lck
+
+# output files
+manufacturing/
+fp-info-cache
