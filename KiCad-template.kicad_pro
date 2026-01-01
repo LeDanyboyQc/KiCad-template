@@ -447,11 +447,15 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "custom_library"
+    ],
+    "pinned_symbol_libs": [
+      "custom_library"
+    ]
   },
   "meta": {
-    "filename": "KiCad-Template.kicad_pro",
+    "filename": "KiCad-template.kicad_pro",
     "version": 3
   },
   "net_settings": {
