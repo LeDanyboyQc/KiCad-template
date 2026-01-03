@@ -1,0 +1,123 @@
+(footprint "led_red_side_angle_0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.544439 -1.272221 0)
+		(layer "F.SilkS")
+		(uuid "154e3d7d-0f2c-483f-8898-bf7b6bb585c4")
+		(effects
+			(font
+				(size 1.001748 1.001748)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0603"
+		(at 1.908749 1.2725 0)
+		(layer "F.Fab")
+		(uuid "81044e6c-913a-4dd5-8838-413f8546d2d9")
+		(effects
+			(font
+				(size 1.001969 1.001969)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc81570f-26f4-4598-933f-e23df4a28a40")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff6079f5-11d1-43d0-9d30-cb547f2b5e05")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.356 -0.432)
+		(end 0.356 -0.432)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b03dbf38-ed6d-4435-8dae-9d80b6d615b4")
+	)
+	(fp_line
+		(start -0.356 0.419)
+		(end 0.356 0.419)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab5e0358-45ff-41a4-9d13-b20ac1f69022")
+	)
+	(fp_poly
+		(pts
+			(xy -0.840337 -0.4801) (xy -0.3381 -0.4801) (xy -0.3381 0.471098) (xy -0.840337 0.471098)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "5440c918-0e5a-4c06-b739-78af0f66923f")
+	)
+	(fp_poly
+		(pts
+			(xy 0.330731 -0.4801) (xy 0.8303 -0.4801) (xy 0.8303 0.470655) (xy 0.330731 0.470655)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "207e45a4-95bb-466e-b166-52f9f6e27f8d")
+	)
+	(pad "1" smd rect
+		(at -0.85 0)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "0b0490e6-f301-4840-84a1-c7f0ba99110d")
+	)
+	(pad "2" smd rect
+		(at 0.85 0)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "51924657-e01c-4a4f-814a-7dd23d804541")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/3d_models/led_red_side_angle_0603_LTST-S270KRKT.step"
+		(offset
+			(xyz 0 -0.15 0.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
